@@ -9,7 +9,7 @@ public class HelloWorld {
     final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("h:mm:ss a 'on' MMMM d, yyyy'.'");
     final LocalDateTime now = LocalDateTime.now();
 
-    System.out.println(" Okocha > CR7 " + dtf.format(now));
+    System.out.println("V3" + dtf.format(now));
   }
 
 }
